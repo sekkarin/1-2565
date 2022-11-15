@@ -1,0 +1,184 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table id="maintable" border="0">
+      <tr>
+        <td id="generallabel_364_1667296818702" width="99">
+          <b>Use Case ID</b>
+        </td>
+        <td id="generalvalue_364_1667296818702" width="501">
+          &#160;U1
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_363_1667296818700" width="99">
+          <b>Super Use Case</b>
+        </td>
+        <td id="generalvalue_363_1667296818700" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_362_1667296818699" width="99">
+          <b>Primary Actor</b>
+        </td>
+        <td id="generalvalue_362_1667296818699" width="501">
+          &#3612;&#3641;&#3657;&#3651;&#3594;&#3657;&#3607;&#3633;&#3656;&#3623;&#3652;&#3611;
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_361_1667296818697" width="99">
+          <b>Secondary Actor(s)</b>
+        </td>
+        <td id="generalvalue_361_1667296818697" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_360_1667296818695" width="99">
+          <b>Brief Description</b>
+        </td>
+        <td id="generalvalue_360_1667296818695" width="501">
+          &#3604;&#3641;&#3621;&#3634;&#3618;&#3621;&#3632;&#3648;&#3629;&#3637;&#3618;&#3604;&#3605;&#3656;&#3634;&#3591;&#3654;&#3586;&#3629;&#3591;&#3627;&#3621;&#3633;&#3585;&#3626;&#3641;&#3605;&#3619; &#3648;&#3594;&#3656;&#3609; &#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;&#3649;&#3609;&#3632;&#3609;&#3635; &#3611;&#3619;&#3632;&#3623;&#3633;&#3605;&#3636;&#3612;&#3641;&#3657;&#3626;&#3629;&#3609; 
+          &#3619;&#3634;&#3618;&#3621;&#3632;&#3648;&#3629;&#3637;&#3618;&#3604;&#3627;&#3621;&#3633;&#3585;&#3626;&#3641;&#3605;&#3619;
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_359_1667296818693" width="99">
+          <b>Preconditions</b>
+        </td>
+        <td id="generalvalue_359_1667296818693" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="flowofeventlabelId_358_1667296818686" width="99">
+          <b>Flow of Events</b>
+        </td>
+        <td id="flowofeventvalueId_358_1667296818686" width="501" style="padding-left:0;" valign="top">
+          <table border="0" height="51" width="100%">
+            <tr>
+              <td id="flowofeventfirstcelllabel_358_1667296818686" width="20">
+                &#160;
+              </td>
+              <td id="flowofeventactioninputlabel_358_1667296818686" align="center" width="240">
+                <b>Actor Input</b>
+              </td>
+              <td id="flowofeventsystemresponselabel_358_1667296818686" align="center" width="240">
+                <b>System Response</b>
+              </td>
+            </tr>
+            <tr>
+              <td id="flowofeventNumIdPrefix_358_16672968186861">
+                <p>
+                  1
+                </p>
+              </td>
+              <td class="actor">
+                &#3611;&#3619;&#3632;&#3648;&#3616;&#3607;
+              </td>
+              <td class="system">
+                
+              </td>
+            </tr>
+            <tr>
+              <td id="flowofeventNumIdPrefix_358_16672968186862">
+                <p>
+                  2
+                </p>
+              </td>
+              <td class="actor">
+                &#3612;&#3640;&#3657;&#3626;&#3629;&#3609;
+              </td>
+              <td class="system">
+                
+              </td>
+            </tr>
+            <tr>
+              <td id="flowofeventNumIdPrefix_358_16672968186863" height="30">
+                <p>
+                  3
+                </p>
+              </td>
+              <td class="actor" height="30">
+                &#3594;&#3639;&#3656;&#3629;&#3588;&#3629;&#3619;&#3660;&#3626;
+              </td>
+              <td class="system" height="30">
+                
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_357_1667296818683" width="99">
+          <b>Post-conditions</b>
+        </td>
+        <td id="generalvalue_357_1667296818683" width="501">
+          none
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_356_1667296818681" width="99">
+          <b>Alternative flows and exceptions</b>
+        </td>
+        <td id="generalvalue_356_1667296818681" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_355_1667296818679" width="99">
+          <b>Non-behavior requirements</b>
+        </td>
+        <td id="generalvalue_355_1667296818679" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_354_1667296818678" width="99">
+          <b>Assumptions</b>
+        </td>
+        <td id="generalvalue_354_1667296818678" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_353_1667296818676" width="99">
+          <b>Issue</b>
+        </td>
+        <td id="generalvalue_353_1667296818676" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_352_1667296818675" width="99">
+          <b>Source</b>
+        </td>
+        <td id="generalvalue_352_1667296818675" width="501">
+          
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_351_1667296818674" width="99">
+          <b>Author</b>
+        </td>
+        <td id="generalvalue_351_1667296818674" width="501">
+          KEN
+        </td>
+      </tr>
+      <tr>
+        <td id="generallabel_350_1667296818672" width="99">
+          <b>Date</b>
+        </td>
+        <td id="generalvalue_350_1667296818672" width="501">
+          27 &#3605;.&#3588;. 2565 13:22:10
+        </td>
+      </tr>
+    </table>
+    <p>
+      &#160;
+    </p>
+  </body>
+</html>

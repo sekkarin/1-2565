@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Network</title>
+
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <style type="text/css">
+      #mynetwork {
+        width: 1000px;
+        height: 500px;
+        border: 1px solid lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mynetwork"></div>
+    
+    <script type="text/javascript">
+      // create an array with nodes
+   
+      var nodes = new vis.DataSet([
+        {
+          id: 0,
+          label: "ผศ.อภินันท์ จุ่นกรณ์ ประธานสาขา",
+          level: 1,
+          shape: "circularImage",
+          image:"http://sc.npru.ac.th/newsc/fileupload/personal/490074201.png",
+        },
+        {
+          id: 1,
+          label: "ผศ.ดร.ภรัณยา ปาลวิสุทธิ์ อาจารย์",
+          level: 2,
+          shape: "circularImage",
+          image: "http://sc.npru.ac.th/newsc/fileupload/personal/e5c4ce33ff002d6128f7e6dc4d864119.jpg",
+        },
+        {
+          id: 2,
+          label: "ผศ.ดร.ไก้รุ่ง เฮงพระพรหม อาจารย์",
+          level: 2,
+          shape: "circularImage",
+          image: "http://sc.npru.ac.th/newsc/fileupload/personal/2a8df0900809f6bc64c8c6cb77911b69.JPG",
+        },
+        {
+          id: 3,
+          label: "ผศ.ดร.สุพจน์ เฮงพระพรหม อาจารย์",
+          level: 2,
+          shape: "circularImage",
+          image: "http://sc.npru.ac.th/newsc/fileupload/personal/ee27696297b861aebb830839eec68c70.jpg",
+        },
+        {
+          id: 4,
+          label: "ผศ.ดร.สุวิมล มรรควิบูลย์ชัย อาจารย์",
+          level: 2,
+          shape: "circularImage",
+          image: "http://sc.npru.ac.th/newsc/fileupload/personal/291802615.png",
+        },
+       
+     ]);
+      // create an array with edges
+      var edges = new vis.DataSet([
+        { from: 0, to: 1 },
+        { from: 0, to: 2 },
+        { from: 0, to: 3 },
+        { from: 0, to: 4 },
+        { from: 0, to: 5 },
+    
+      ]);
+
+      // create a network
+      var container = document.getElementById("mynetwork");
+      var data = {
+        nodes: nodes,
+        edges: edges,
+      };
+      var options = {
+      
+      };
+      var network = new vis.Network(container, data, options);
+    </script>
+  </body>
+</html>

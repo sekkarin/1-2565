@@ -1,0 +1,15 @@
+@startuml
+ class Person {
+	- fristName : String 
+	- lastName  : String 
+	- idCard    : String 
+	- birth     : String 
+	- address   : String 
+
+	+  void disPlayFullName() 
+	+  void disPlayBirth() 
+	+  void disPlayAddress() 
+	+  void changeName(String newname)
+
+}
+@enduml
